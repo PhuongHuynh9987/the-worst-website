@@ -1,0 +1,119 @@
+body  {
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    background: url('./img/bitexco.jpg') no-repeat center;
+    background-size: cover;
+    height: 65vh;
+    overflow: hidden;
+}
+
+header div {
+    position: relative;
+    bottom: 1em;
+    font-size: 1.3em;
+    color: #ffffff;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin-top: .6em;
+    font-size: 1.9em;
+    background-color: #d47878;
+    padding: .2em;                   /*padding 1 time*/
+    width: 2.7em;
+    border: .2em solid rgb(122, 100, 100);
+    transform: skew(10deg);
+}
+
+.nav-list ul li{
+    display: inline;         /* inline 2 times */
+    padding: .4em;          /* padding 2 times */
+    margin: 1em;
+    border: .2em dashed rgb(219, 217, 221);
+    background-color: #d47878;
+    border-radius: 60%;
+}
+
+a {
+    text-decoration: none;  
+    color: #d3ccad;
+}
+
+.float-right img {
+    float: right;
+}
+
+.float-right {
+    position: relative;
+    right: 4.7em;
+}
+
+.float-left {
+    position: relative;
+    left: 5em;
+}
+
+.float-left img {
+    float: left;
+}
+
+.places ul li {
+    list-style-type: none;      
+    margin-right: 3em;
+    color: #ffffff;
+}
+
+img {
+    width: 200px;
+    height: 250px;
+}
+
+.places {
+    position: absolute;
+    top: 15em;
+    right: 2em;
+}
+
+h1 {
+    font-size: 4em;
+    color: #d3ccad;
+}
+
+.intro-Vietnam {
+    position: absolute;
+    right: 20em;
+    font-size: 1.5em;
+    border: .3em solid #d3ccad;
+    border-radius: 1em;
+    width: 20em;
+}
+
+.activities ul li {
+    list-style-type: none;
+    display: inline;
+}
+
+.activities h1 {
+    font-size: 2em;
+    background: linear-gradient(to right, rgb(190, 106, 106), rgb(97, 97, 219));
+    width: 10em;
+}
+
+.activities div {
+    position: absolute;
+    top: 25em;
+    left: 5em;
+}
+
+.activities section {
+    position: relative;
+    right: 30em;
+    bottom: 15em;
+}
+
